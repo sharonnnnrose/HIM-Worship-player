@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080909">
+    <meta name="description" content="HIM - His Infinite Majesty. A space where every song becomes a prayer.">
+
+    <title>HIM | His Infinite Majesty</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">HIM<span>.</span></a>
+
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#collection">COLLECTION</a>
+            <a href="#about">ABOUT</a>
+        </nav>
+
+        <div class="nav-label">
+            <span class="live-dot"></span>
+            A SPACE FOR WORSHIP
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ✦ WELCOME TO A SPACE OF WORSHIP
+                </p>
+
+                <h1>
+                    His Infinite<br>
+                    <span>Majesty.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Beyond melodies. Beyond words.
+                    A place where every song becomes a prayer.
+                </p>
+
+                <a href="#collection" class="explore-btn">
+                    EXPLORE WORSHIP COLLECTION ↓
+                </a>
+
+                <div class="hero-caption">
+                    <span>FAITH</span>
+                    <span>•</span>
+                    <span>WORSHIP</span>
+                    <span>•</span>
+                    <span>PRESENCE</span>
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+                <div class="glow-circle"></div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="hero-symbol">
+                    ✧
+                    <p>BE STILL<br>AND KNOW.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- MUSIC COLLECTION -->
+        <section class="music-section" id="collection">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">✦ CURATED WITH LOVE</p>
+                    <h2>Worship Collection</h2>
+                    <p class="section-description">
+                        Songs that bring the heart closer to Him.
+                    </p>
+                </div>
+
+                <span class="collection-count">01 — 10</span>
+
+            </div>
+
+
+            <div class="music-layout">
+
+                <!-- MUSIC PLAYER -->
+                <div class="player-card">
+
+                    <div class="player-top">
+                        <p class="eyebrow">NOW PLAYING</p>
+                        <span class="player-status">
+                            <span class="live-dot"></span>
+                            HIM PLAYER
+                        </span>
+                    </div>
+
+                    <div class="album-art">
+                        <div class="album-glow"></div>
+                        <div class="album-disc">
+                            <div class="disc-center">HIM</div>
+                        </div>
+                        <p class="album-label">HIS INFINITE MAJESTY</p>
+                    </div>
+
+                    <!-- YOUTUBE PLAYER -->
+                    <div id="youtube-player"></div>
+
+                    <div class="song-details">
+                        <h3 id="song-title">As the Deer</h3>
+                        <p id="song-artist">Worship Collection</p>
+                    </div>
+
+                    <!-- PROGRESS -->
+                    <div class="progress-area">
+                        <input
+                            type="range"
+                            id="progress"
+                            min="0"
+                            max="100"
+                            value="0"
+                            aria-label="Song progress"
+                        >
+
+                        <div class="time-labels">
+                            <span id="current-time">0:00</span>
+                            <span id="total-time">0:00</span>
+                        </div>
+                    </div>
+
+                    <!-- PLAYER CONTROLS -->
+                    <div class="controls">
+
+                        <button id="prev" aria-label="Previous song">
+                            ⏮
+                        </button>
+
+                        <button id="play" aria-label="Play or pause">
+                            ▶
+                        </button>
+
+                        <button id="next" aria-label="Next song">
+                            ⏭
+                        </button>
+
+                    </div>
+
+                    <!-- EQUALIZER VISUAL -->
+                    <div class="equalizer" id="equalizer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <p class="player-footer">
+                        LET YOUR HEART WORSHIP
+                    </p>
+
+                </div>
+
+
+                <!-- PLAYLIST -->
+                <div class="playlist-card">
+
+                    <div class="playlist-heading">
+                        <div>
+                            <p class="eyebrow">YOUR PERSONAL COLLECTION</p>
+                            <h3>THE PLAYLIST</h3>
+                        </div>
+
+                        <span class="track-count">10 TRACKS</span>
+                    </div>
+
+                    <div id="playlist"></div>
+
+                    <div class="playlist-footer">
+                        <span>✦</span>
+                        <p>Made for moments with God.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section" id="about">
+
+            <p class="eyebrow">✦ THE HEART BEHIND HIM</p>
+
+            <h2>
+                More than music.<br>
+                <span>A moment with Him.</span>
+            </h2>
+
+            <p class="about-description">
+                A little space to pause, worship, reflect
+                and reconnect with the One who created it all.
+            </p>
+
+            <div class="about-symbol">✧</div>
+
+        </section>
+
+    </main> 
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+            <h3>HIM<span>.</span></h3>
+            <p>HIS INFINITE MAJESTY</p>
+        </div>
+
+        <p class="footer-message">
+            Made with love. For His glory. ♡
+        </p>
+
+        <p class="copyright">
+            © 2026 HIM. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
